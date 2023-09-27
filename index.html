@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="curriculum.ico">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+  <title>Mi Currículum</title>
+</head>
+<body>
+  <header>
+    <!-- Datos principales -->       
+    <div class="profile">
+      <img src="foto.png" alt="Tu Foto">
+      <h1>Carlos Perez</h1>
+      <p class="contact-info">Teléfono: +54 9 11 2345-6789</p>
+      <p class="contact-info">Email: carlos.perez@gmail.com</p>
+    </div>
+  </header>
+
+  <!-- Menú de opciones de navegación -->
+
+  <nav>
+    <ul>
+      <li class="menu-item" onclick="mostrarContenido('objetivos')">Objetivos</li>
+      <li class="menu-item" onclick="mostrarContenido('datos-personales')">Datos personales</li>
+      <li class="menu-item" onclick="mostrarContenido('estudios')">Estudios</li>
+      <li class="menu-item" onclick="mostrarContenido('antecedentes-laborales')">Antecedentes laborales</li>
+    </ul>
+  </nav>
+
+  <!-- Secciones que despliegan el contenido -->
+
+  <section id="objetivos" class="content-section">
+    <h2>Objetivos</h2>
+
+    <!-- Objetivos -->
+
+    <p>En mi viaje profesional, siempre estoy en la búsqueda de oportunidades que me permitan aprender y crecer constantemente. Me entusiasma la idea de contribuir a proyectos que no solo desafíen mis habilidades, sino que también tengan un impacto positivo en la sociedad. Me considero alguien que disfruta trabajando en equipo, apoyando a mis colegas y asumiendo responsabilidades cuando se necesita liderazgo.</p>
+
+    <p>La creatividad es una parte fundamental de mi enfoque laboral. Estoy constantemente generando nuevas ideas y buscando formas innovadoras de abordar desafíos. Más allá del ámbito laboral, valoro encontrar un equilibrio saludable entre mi vida profesional y personal, permitiéndome disfrutar plenamente de ambos aspectos.</p>
+
+    <p>Construir relaciones significativas es algo que valoro profundamente. Disfruto haciendo conexiones en el entorno laboral y más allá, creando un ambiente donde la colaboración y la amistad puedan prosperar. Además, tengo una inclinación por contribuir socialmente, por lo que preferiría trabajar en empresas que compartan mi visión de hacer un impacto positivo en la comunidad y en el mundo.</p>
+
+    <p>Esta perspectiva integral refleja mi deseo de no solo avanzar en mi carrera, sino también de hacerlo en armonía con mis valores personales y contribuir a un entorno laboral positivo y significativo.</p>
+  </section>
+
+  <section id="datos-personales" class="content-section">
+    <h2>Datos personales</h2>
+
+    <!-- Datos personales -->
+
+    <p><b>Fecha de Nacimiento:</b> 10 de junio de 1990</p>
+
+    <p><b>Lugar de Nacimiento:</b> Buenos Aires, Argentina</p>
+
+    <p><b>Estado Civil:</b> Soltero</p>
+
+    <p><b>Dirección:</b> Calle del Sol 123, Ciudad de Buenos Aires</p>
+  </section>
+
+  <section id="estudios" class="content-section">
+    <h2>Estudios</h2>
+
+    <!-- Estudios -->
+
+    <!-- Secundaria -->
+    <div>
+      <p>Título de Bachiller en Ciencias Naturales, Escuela Secundaria "Luz y Progreso", Buenos Aires (2004-2009)</p>
+    </div>
+
+    <!-- Universidad -->
+    <div>
+      <p>Título Universitario en Ingeniería Informática, Universidad Nacional de Buenos Aires (2010-2015)</p>
+      <p>Durante mi tiempo en la universidad, me enfoqué en adquirir habilidades sólidas en programación, desarrollo de software y seguridad informática. Participé activamente en proyectos estudiantiles y colaboré en iniciativas que involucraban el uso de nuevas tecnologías.</p>
+    </div>
+
+    <!-- Cursos de Programación -->
+    <div>
+      <h3>Cursos de Programación</h3>
+
+      <div>
+        <p>Certificado en Desarrollo Web Full Stack, CodeAcademy (2016)</p>
+        <p>Este curso proporcionó una comprensión profunda de las tecnologías web, incluyendo HTML, CSS, JavaScript y frameworks populares.</p>
+      </div>
+
+      <div>
+        <p>Certificado en Python para Ciencia de Datos, Coursera (2018)</p>
+        <p>Exploré las aplicaciones de Python en el ámbito de la ciencia de datos, desarrollando habilidades en análisis y visualización de datos.</p>
+      </div>
+
+      <div>
+        <p>Certificado en Seguridad Informática Ética, Udemy (2020)</p>
+        <p>Adquirí conocimientos en prácticas éticas de hacking y fortalecí mis habilidades en el ámbito de la seguridad informática.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="antecedentes-laborales" class="content-section">
+    <h2>Antecedentes laborales</h2>
+
+    <!-- Trabajos -->
+
+    <!-- Desarrollador Junior -->    
+    <div>
+      <p>2015-2017</p>
+      <h3>Desarrollador Junior en TechSolutions</h3>
+      <p>Como recién graduado en Ingeniería Informática, Carlos comencé mi carrera como desarrollador junior en TechSolutions. Involucrándome en el desarrollo de software para proyectos internos y externos, ganando experiencia en tecnologías clave y mejorando sus habilidades de programación.</p>
+    </div>
+
+    <!-- Analista de Seguridad -->
+    <div>
+      <p>2017-2019</p>
+      <h3>Analista de Seguridad en CyberGuardians</h3>
+      <p>Con una creciente pasión por la seguridad informática, me uní a CyberGuardians como Analista de Seguridad. Aquí, apliqué mis conocimientos para identificar y abordar vulnerabilidades en sistemas, participando en auditorías de seguridad y desempeñando un papel fundamental en la mejora de la postura de seguridad de la empresa.</p>
+    </div>
+
+    <!-- Líder de Proyecto -->
+    <div>
+      <p>2019-presente</p>
+      <h3>Líder de Proyecto en InnovateTech</h3>
+      <p>Con un título universitario y experiencia en desarrollo y seguridad, asumí el rol de Líder de Proyecto en InnovateTech. Aquí, dirijo equipos en la implementación de soluciones tecnológicas innovadoras. Mi enfoque en el desarrollo y la seguridad informática ha influido positivamente en la calidad y la seguridad de los proyectos.</p>
+    </div>
+
+  </section>
+
+  <!-- Imagen de pie de página -->
+  <footer class="imagen">
+    <img src="future.png" alt="Futuro">
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

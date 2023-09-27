@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #AAA;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.profile img {
+  border-radius: 50%;
+  max-width: 100px;
+}
+
+.contact-info {
+  margin-top: 5px; 
+  color: #fff;
+}
+
+nav {
+  background-color: #555;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu-item {
+  flex-grow: 1;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #666;
+  color: white;
+}
+
+.menu-item:hover {
+  background-color: #444;
+}
+
+.imagen img {
+  width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+
+}
+
+.content-section {
+  display: none;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}
